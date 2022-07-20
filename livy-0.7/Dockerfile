@@ -1,1 +1,1 @@
-From gcr.io/mapr-252711:livy-0.7.0
+From gcr.io/mapr-252711/livy-0.7.0:202206300317R
