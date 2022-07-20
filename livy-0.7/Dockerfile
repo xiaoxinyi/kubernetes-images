@@ -1,1 +1,1 @@
-From gcr.io/mapr-252711/livy-0.7.0:202206300317R
+FROM gcr.io/mapr-252711/spark-2.4.7:202103081541C
