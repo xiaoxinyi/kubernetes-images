@@ -1,1 +1,1 @@
-FROM gcr.io/mapr-252711/spark-2.4.7:202103081541C
+FROM gcr.io/spark-2.4.7:202103081541C
