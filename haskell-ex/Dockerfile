@@ -18,4 +18,4 @@ FROM golang:buster
 WORKDIR /workspace
 COPY main.go /workspace/
 RUN go build main.go
-CMD ["main"]
+CMD ["./main"]
