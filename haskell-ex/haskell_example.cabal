@@ -1,5 +1,5 @@
 import System.Environment
 
 main = do
-        name <- getEnv "NAME_TO_GREET"
-        putStrLn ("Hello, " ++ name)
+  name <- getEnv "NAME_TO_GREET"
+  putStrLn ("Hello, " ++ name)
