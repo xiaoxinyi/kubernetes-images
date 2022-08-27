@@ -9,6 +9,9 @@ return_json = {"return_value":f"{multiplied_data_point}"}
 
 # write to the file checked by Airflow for XComs
 f = open('./airflow/xcom/return.json', 'w')
-f.write(f"{return_json}")
-print('write success')
+# f.write(f"{return_json}")
+import json
+json.dump(return_json, f)
+print(f'write success {return_json}')
+
 f.close()
